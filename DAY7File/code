@@ -1,0 +1,14 @@
+<label>birthday</label><input type ="date"/>
+<br>
+<label>time</label><input type ="time"/>
+<br>
+<label>colours</label><input type="color"/> 
+<input type="radio"/> 
+<input type="file"/> -->
+<!--  
+<!-- <input type="checkbox"/> -->
+<!-- 
+<b><h1>kumar</h1></b>
+<i><h1>kumar</h1></i>
+<u><h1>kumar</h1></u>
+<b><p>kumar</p></b>
