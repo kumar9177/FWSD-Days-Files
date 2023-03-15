@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open assesement.html",
-            "file": "c:\\Users\\KumaraSwamy\\OneDrive\\Desktop\\FWSD-Days Files\\assesement.html"
+            "name": " ",
+            "file": "c:\\Users\\KumaraSwamy\\OneDrive\\Desktop\\FWSD-Days Files"
         }
     ]
 }
