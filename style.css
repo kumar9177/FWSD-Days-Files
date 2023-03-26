@@ -13,6 +13,9 @@ body
     align-items: center;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    
+}
+div.image1{
     background: rgb(153, 204, 234);
     background: hsla(312, 66%, 76%, 1);
 
@@ -23,6 +26,16 @@ body
     background: -webkit-linear-gradient(90deg, hsla(312, 66%, 76%, 1) 0%, hsla(234, 93%, 67%, 1) 64%);
     
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ea98da", endColorstr="#5b6cf9", GradientType=1 );
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: absolute;
+ left: 0;
+ width:50%;
+ height: 100%;
+}
+div.image2{
+    width:440px;
 }
 div.container{
     width: 432px;
@@ -111,7 +124,7 @@ div.container button.button{
 
    height: 30px;
 }
- div.image2{
+ /* div.image2{
 padding: auto;
     background-color:white;
     background: white;
@@ -119,4 +132,4 @@ padding: auto;
     display: flex;
     height: 100%;
     object-fit: cover;
- }
+ } */
