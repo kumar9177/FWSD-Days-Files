@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">hoisting</h1>
+    <script>
+     
+// const greet=function (Name){
+//     console.log("Hi"+Name)
+// }
+ 
+// const greet2=(Name)=>{
+//     console.log("Hi"+Name)
+// }
+// greet("kumar")
+// greet2("swamy")
+
+// const sum=function(a,b){
+//     returna+b
+// }
+
+// const arrowsum=(a,b) =>a+b 
+//   const multiply=(a) =>a = 92
+//   console.log(multiply(2))
+
+  const arr=[1,2,3,4,5,6,7,8,9,10]
+  
+//   function cb(element){
+//     if(element % 2  === 0){
+//     return true}
+//     else
+//     {
+//     return false
+//   }
+// }
+  
+//   const evenArr=arr.filter(cb)
+//   console.log(evenArr)
+// //   below code is added in single line using Arrow functions
+//   const newArr=arr.filter(element=> element % 2 ===0)
+
+  function cb(element){
+  if(element === 7)
+  return element
+  }
+  const result= arr.find(cb)
+  console.log(result)
+
+
+//   function callback(item){
+// return item=2
+//   }
+//   const newArr=arr.map(callback)
+//   const arr2=arr.map(item => item+2)
+// console.log(arr2)
+        // function greet(Name="default", age=10) {
+        //     console.log('Hello ' + Name + age)
+        // }
+        // greet()
+
+        // const greet2 = function(Name) {
+        //     console.log('Hello ' + Name)
+        // }
+   
+
+        
+// const a = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+//  function iterate(currentValue,currentIndex){
+//     console.log(currentValue,currentIndex)
+ 
+
+// }
+
+//    a.forEach(iterate)
+//    const newArr=[]
+//    for(let i=0;i<a.length;i++)
+//    {
+//     iterate(a[i],i)
+//     newArr.push(a[i])
+//    }
+    </script>
+</body>
+</html>
