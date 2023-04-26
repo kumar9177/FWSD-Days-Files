@@ -1,0 +1,22 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+ background-color:  rgb(254 252 232 );
+ display: flex;
+}
+
+div.top{
+    color:brown;
+
+    
+}
+h1{
+    color: brown;
+    margin-left: 20px;
+    margin-top: 50px;
+}
